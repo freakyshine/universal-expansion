@@ -24,6 +24,7 @@ public class player_control : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (change != Vector3.zero)
         movePlayer();
     }
 
